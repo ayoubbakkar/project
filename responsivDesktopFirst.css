@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.header{
+    background-color: red;
+    flex-basis: 100%;
+
+}
+.sidebar1{
+    background-color: green;
+    flex-basis: 25%;
+}
+.content{
+    background-color:blue;
+    flex-basis: 50%;
+}
+.sidebar2{
+    background-color: pink;
+    flex-basis: 25%;
+}
+@media (max-width: 900px){
+.sidebar1{
+    background-color: green;
+    flex-basis: 30%;
+}
+.content{
+    background-color:blue;
+    flex-basis: 70%;
+}
+.sidebar2{
+    background-color: pink;
+    flex-basis: 100%;
+}
+}
+@media (max-width: 600px){
+.sidebar1{
+background-color: green;
+flex-basis: 100%;
+}
+.content{
+background-color:blue;
+flex-basis: 100%;
+}
+.sidebar2{
+background-color: pink;
+flex-basis: 100%;
+}
+}

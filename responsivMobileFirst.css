@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas:
+      'header header header header header'
+      'sidebar1 sidebar1 sidebar1 sidebar1 sidebar1'
+      ' content content content content content'
+      ' sidebar2 sidebar2 sidebar2 sidebar2 sidebar2'
+      ;
+
+      }
+.header{
+  grid-area: header ;
+  background-color: red ;
+}
+.sidebar1{
+  grid-area: sidebar1;
+  background-color:green ;
+}
+.sidebar2{
+  grid-area: sidebar2;
+  background-color: pink;
+}
+.content{
+  grid-area: content;
+  background-color: blue ;
+}
+@media (min-width: 600px) {
+body {
+  grid-template-areas:
+    'header header header header header'
+  'sidebar1 sidebar1 content content content'
+  ' sidebar2 sidebar2 sidebar2 sidebar2 sidebar2'
+  ;
+}
+}
+@media (min-width: 900px) {
+body {
+  grid-template-areas:
+    'header header header header header'
+  'sidebar1  content content content  sidebar2'
+  ;
+}
+}

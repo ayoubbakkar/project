@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Box</title>
+    <style>
+        .image{
+            width:500px;
+            height:500px;
+            visibility: hidden;
+        }
+        .check:checked +div> .image{
+            visibility: visible;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <input type="checkbox" class="check" id="check">
+        <label for="check"> hide and show vie checkbox</label>
+        <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Hochschule_Bonn-Rhein-Sieg_Wolfgang_G%C3%B6ddertz_Induktion.jpg" alt="">
+    </div>
+    
+</body>
+</html>

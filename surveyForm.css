@@ -1,0 +1,41 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-align: center;
+}
+body{
+   background-color: #b2d6d1;
+}
+#envolop{
+   padding:40px;
+   margin:50px;
+   background-color: rgb(235,244,243);
+}
+p{ 
+   font-family:"Gill Sans", sans-serif;
+   text-align: center;
+}
+label{
+   display: inline-block;
+   text-align: right;
+   width: 40%;
+   padding: 5px;
+}
+.rightTab {
+   display: inline-block;
+   text-align: center;
+    margin : 0 auto;
+   vertical-align: middle;
+ }
+ #check{
+     display:block;
+     text-align: right;
+
+   padding-right:30%;
+ }
+ #labels{
+     display: inline-block;
+   text-align: left;
+   width: 40%;
+   padding: 5px;
+ }
