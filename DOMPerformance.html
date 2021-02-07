@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script>
-        var test = document.getElementById('performance');
-        const t0= performance.now();
-        test.textContent = 'JavaScript Performance Testing';
-        const t1= performance.now();
-        test.innerText= 'JavaScript Performance Testing';
-        const t2= performance.now();
-        test.innerHTML= 'JavaScript Performance Testing';
-        const t3= performance.now();
-        test.outerHTML='JavaScript Performance Testing';
-        const t4= performance.now();
-console.log(t1-t0);
-console.log(t2-t1);
-console.log(t3-t2);
-console.log(t4-t3);
-    </script>
-    <title>JavaScript Performance</title>    
-  </head>
-  <body>
-    <h1 id="performance">JavaScript Fundamentals – Part 2 </h1>
-    
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Performance</title>
+</head>
+<body>
+<h1>Testing the performances </h1>
+      <h3>TextCONTENT:</h3>
+      <button  id="test3" onclick="innertext()">press</button></li>
+      <h3>OUTERHTML:</h3>
+      <button id="test2" onclick="outerHtml()">press</button></li>
+      <h3>InnerHTML:</h3>
+      <button id="test1" onclick="innerHtml()">press</button></li>
+      <h3>TEXTCONTENT:</h3>
+      <button id="test4" onclick="textcontent()">press</button></li> 
+    <script src="DOMPerformance.js"></script>
+</body>
 </html>
+
+
+
 
 
