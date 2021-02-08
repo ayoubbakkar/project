@@ -1,0 +1,33 @@
+body{
+	    font-style: sans-serif;
+	    color: #5e5b64;
+	    text-align:center;
+}
+
+a{
+	    text-decoration:none;
+      
+}
+
+nav{
+	    display:inline-block;
+	    margin:60px auto 45px;
+	    background-color:#011826;
+	    box-shadow:0 1px 1px #ccc;
+	    border-radius:2px;
+}
+nav a{
+	    display:inline-block;
+	    padding: 18px 30px;
+	    color:#fff !important;
+	    font-weight:bold;
+	    font-size:16px;
+	    text-transform: uppercase;
+	    	
+}
+
+p{
+	    font-size:22px;
+	    font-weight:bold;
+	    color:#F88E37;
+}
