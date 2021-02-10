@@ -7,8 +7,6 @@ function Auto(mtr) {
     this.mtr= mtr;
 }
 
-
-
 function conflict(owners) {
     if (owners.length > 1) {
         autos = [];

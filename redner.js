@@ -1,4 +1,4 @@
-  document.getElementById("myBtn").addEventListener("click",redenerHinzufuegen);
+document.getElementById("myBtn").addEventListener("click",redenerHinzufuegen);
   const ul = document.getElementById("list");
   const input = document.getElementById("redenerName");
   function redenerHinzufuegen() {
@@ -79,6 +79,3 @@
       }
 
   }
-
-
-

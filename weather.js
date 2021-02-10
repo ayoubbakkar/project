@@ -13,5 +13,5 @@
 
     })
   }());
-  function toCelsius(temperature) { return (temperature - 32) * (5 / 9);} 
+  function toCelsius(temperature) { return Math.trunc(temperature- 273.15);} 
  
